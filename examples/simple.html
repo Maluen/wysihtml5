@@ -121,5 +121,8 @@
     })
     .on("redo:composer", function() {
       log.innerHTML += "<div>redo:composer</div>";
+    })
+    .on("keyup", function() {
+      log.innerHTML += "<div>keyup</div>";
     });
 </script>
